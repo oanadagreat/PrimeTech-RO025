@@ -30,12 +30,10 @@
 package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
-import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
-import org.firstinspires.ftc.robotcontroller.external.samples.HardwarePushbot;
 import org.firstinspires.ftc.robotcore.external.ClassFactory;
 import org.firstinspires.ftc.robotcore.external.hardware.camera.WebcamName;
 import org.firstinspires.ftc.robotcore.external.navigation.VuforiaLocalizer;
@@ -79,9 +77,9 @@ import static org.firstinspires.ftc.teamcode.HardwarePrimeTech.turnValue;
  * Remove or comment out the @Disabled line to add this opmode to the Driver Station OpMode list
  */
 
-@Autonomous(name="Autonomous_Crater", group="Pushbot")
+@Autonomous(name="Autonomous_Depot", group="Pushbot")
 //@Disabled
-public class Autonomous_Crater extends LinearOpMode {
+public class Autonomous_Depot extends LinearOpMode {
 
     /* Declare OpMode members. */
     HardwarePrimeTech         robot   = new HardwarePrimeTech();   // Use a Pushbot's hardware
