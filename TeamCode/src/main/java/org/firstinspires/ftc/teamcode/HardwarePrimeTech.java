@@ -71,8 +71,8 @@ public class HardwarePrimeTech
             (WHEEL_DIAMETER_MM * 3.1415);
     public static final double     HEADING_THRESHOLD       = 10;
     public static final double     P_TURN_COEFF            = 0.1;
-    public final static double MAX_PUTERE = 1.0;
-    public final static double MIN_PUTERE = -1.0;
+    public final static double     MAX_PUTERE = 1.0;
+    public final static double     MIN_PUTERE = -1.0;
 
 
 

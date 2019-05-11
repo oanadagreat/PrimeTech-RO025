@@ -45,6 +45,7 @@ import org.firstinspires.ftc.robotcore.external.tfod.TFObjectDetector;
 import java.util.List;
 
 import static org.firstinspires.ftc.teamcode.HardwarePrimeTech.COUNTS_PER_MM;
+import static org.firstinspires.ftc.teamcode.HardwarePrimeTech.DRIVE_SPEED;
 import static org.firstinspires.ftc.teamcode.HardwarePrimeTech.MARKER_RELEASED;
 import static org.firstinspires.ftc.teamcode.HardwarePrimeTech.TURN_SPEED;
 import static org.firstinspires.ftc.teamcode.HardwarePrimeTech.driveValue;
@@ -148,6 +149,13 @@ public class Autonomous_Crater extends LinearOpMode {
         /***    AUTONOMUS STARTS HERE                           ***/
         /***                AUTONOMUS STARTS HERE               ***/
         /***                            AUTONOMUS STARTS HERE   ***/
+
+
+
+        lowerRobot();
+
+        driveBackward(10,DRIVE_SPEED);
+        strafeLeft(30,DRIVE_SPEED);
 
 
 
@@ -492,7 +500,7 @@ public class Autonomous_Crater extends LinearOpMode {
 
     public void rotateRight(double angle)
     {
-        encoderTurn(TURN_SPEED, angle, 15);
+        encoderTurn(TURN_SPEED, angle, 10);
     }
 
     public void rotateLeft(double angle)
