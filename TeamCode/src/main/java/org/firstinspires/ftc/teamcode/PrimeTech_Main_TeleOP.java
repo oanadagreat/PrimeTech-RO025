@@ -29,6 +29,7 @@
 
 package org.firstinspires.ftc.teamcode;
 
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
@@ -54,7 +55,7 @@ import static org.firstinspires.ftc.teamcode.HardwarePrimeTech.stringValue;
  */
 
 @TeleOp(name="PrimeTech_Main_TeleOP", group="Linear Opmode")
-//@Disabled
+@Disabled
 public class PrimeTech_Main_TeleOP extends LinearOpMode {
 
     // Declare OpMode members.
